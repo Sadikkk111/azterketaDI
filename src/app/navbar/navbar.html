@@ -1,0 +1,7 @@
+@for (aukera of menuAukerak; track aukera.id) {
+    <a [routerLink]="aukera.route"
+        routerLinkActive
+        class="py-2 px-4 ">
+    {{ aukera.izena }}
+    </a>
+}
